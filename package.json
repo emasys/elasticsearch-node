@@ -1,0 +1,29 @@
+{
+  "name": "elasticsearch-node",
+  "version": "1.0.0",
+  "description": "simple elasticsearch module with nodejs",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "elasticsearch": "^15.2.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emasys/elasticsearch-node.git"
+  },
+  "keywords": [
+    "elasticsearch"
+  ],
+  "author": "emasys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emasys/elasticsearch-node/issues"
+  },
+  "homepage": "https://github.com/emasys/elasticsearch-node#readme"
+}
